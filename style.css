@@ -1,0 +1,32 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Raleway:wght@100&display=swap');
+
+
+
+.navbar {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    padding: 10px; 
+    margin: 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.navbar ul {
+    list-style-type: none; 
+    display: flex; 
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px; 
+    color: black; 
+    font-weight: bold
+}
+
+.navbar li {
+    margin-right: 41px; /
+}
+
+/* logo */
+.logo {
+    width: 15%;
+}
