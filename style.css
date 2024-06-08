@@ -1,32 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Raleway:wght@100&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Raleway:wght@100&display=swap');
-
-
-
+/* Estilos para la barra de navegación (navbar) */
 .navbar {
-    position: fixed;
-    background-color: rgb(255, 255, 255);
-    padding: 10px; 
-    margin: 0;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar ul {
-    list-style-type: none; 
-    display: flex; 
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px; 
-    color: black; 
-    font-weight: bold
+  list-style-type: none;
+  display: flex;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
 }
 
 .navbar li {
-    margin-right: 41px; /
+  margin-right: 41px;
 }
 
-/* logo */
+/* Estilos para el logo */
 .logo {
-    width: 15%;
+  width: 15%;
 }
+
+/* Estilos para el contenedor de la imagen de fondo */
+.landing {
+  background-image: url('Images/landing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para el título y párrafo dentro de .landing */
+.titulo-landing {
+  font-size: 36px;
+  font-weight: bold;
+  color: #FFF; 
+  margin-bottom: 20px;
+}
+
+.parrafo-landing {
+  font-size: 24px;
+  color: #FFF; 
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+  font-family: "Text", sans-serif;
+}
+
+.contenedor {
+  background-color: #00B172;
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  padding: 20px;
+}
+
+.titulo {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.subtitulo {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.icono {
+  flex: 1; 
+  text-align: center; 
+}
+
+.imagen {
+  flex: 1; 
+}
+
+
+
+
+/* Estilos para el CONTENEDOR CON 3 DIVS*/
+.contenido-blanco {
+    background-color: #FFF; /* Fondo blanco */
+    text-align: center;
+    padding: 20px;
+  }
+  
+ 
+  .titulo-negro {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000; /* Color negro */
+  }
+  
+  /* Estilos para los 3 divs */
+  .tres-contenedores {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para cada div horizontal */
+  .mis-contenedores {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .mis-contenedores img {
+    max-width: 80px; 
+  }
+  
+  .subtitulo-verde {
+    color: #00B172; 
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .parrafo {
+    color: #000; 
+  }
+
+  
+/* Mi pie de pagina  */
+  footer p{
+    color: #161616; 
+  text-decoration:none;
+  text-align: center;
+  }
